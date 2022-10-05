@@ -1,7 +1,7 @@
 li{
    margin-bottom: 16px;
 }
-[href][target="_blank"]{
+a[target="_blank"]{
    border: 2px solid black;
 }
 [href^="broken"]{
@@ -10,7 +10,7 @@ li{
 [href$=".com"]{
    margin-left: 50px;
 }
-[href][lang*="en"]{
+a[lang*="en"]{
    font-size: 10px;
 }
 [href*="www"]{
