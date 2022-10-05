@@ -1,0 +1,18 @@
+.already-learned > ol{
+   background-color: green;
+   color: white;
+}
+.to-be-learned > ol{
+   background-color: orange;
+   color: green;
+}
+.already-learned code{
+   background-color: orange;
+}
+.to-be-learned code{
+   background-color: green;
+}
+#special1 h4~code{
+   border: 20px solid blue;
+}
+/*Установить border для тега code который находиться в теге h4 после id="special1"*/
