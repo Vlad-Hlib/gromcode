@@ -12,7 +12,9 @@
 .to-be-learned code{
    background-color: green;
 }
-#special1 h4~code{
-   border: 20px solid blue;
+#special1 + li code {
+  border: 2px solid blue;
 }
-/*Установить border для тега code который находиться в теге h4 после id="special1"*/
+#special2 ~ li{
+   font-size: 24px;
+}
