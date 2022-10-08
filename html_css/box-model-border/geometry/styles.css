@@ -1,0 +1,29 @@
+div{
+   margin: 50px;
+}
+.pryam{
+   height: 50px;
+   width: 100px;
+   background-color: forestgreen;
+   border-radius: 16px;
+}
+.oval{
+   height: 50px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: darkmagenta;
+}
+.circle{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: aquamarine;
+}
+.try{
+   	border: 50px solid transparent; 
+      border-top: 50px solid brown;
+      height: 50px;
+      width: 50px;
+      box-sizing: border-box;
+      
+}
