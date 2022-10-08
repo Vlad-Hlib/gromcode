@@ -1,5 +1,9 @@
-*{
-   box-sizing: broder-box;
+div{
+   box-sizing: border-box;
+}
+.mar{
+   border: 2px solid black;
+   padding: 50px 50px 0px 50px;
 }
 .blue{
    margin: 50px;
@@ -10,25 +14,13 @@
 .yellow{
    background-color: yellow;
    height: 300px;
-   border: 2px solid black;
-   margin: 0px 50px;
-   margin-top: 50px;
 }
 .green{
   
    background-color: green;
    height: 200px;
-   margin: 0px 50px;
-   margin-top: 50px;
-   border: 2px solid black;
-   
-   
 }
 .pink{
    background-color: pink;
    height: 100px;
-   border: 2px solid black;
-   margin: 0px 50px;
-   margin-top: 50px;
-   
 }
