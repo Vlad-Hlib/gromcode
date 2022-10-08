@@ -3,18 +3,18 @@ div{
    box-sizing: content-box;
 }
 .blue{
-   height: 400px;
+   height: 416px;
    margin: 50px;
    background-color: blue;
 }
 .yellow{
    background-color: yellow;
-   height: 300px;
+   height: 308px;
    margin: 50px;
 }
 .green{
    background-color: green;
-   height: 200px;
+   height: 204px;
    margin: 50px;
 }
 .pink{
