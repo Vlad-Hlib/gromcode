@@ -1,6 +1,6 @@
 div{
    border: 2px solid black;
-   box-sizing: border-box;
+   box-sizing: content-box;
 }
 .blue{
    height: 400px;
