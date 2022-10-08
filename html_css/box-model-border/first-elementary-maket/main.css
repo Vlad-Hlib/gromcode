@@ -1,16 +1,15 @@
 div{
    box-sizing: border-box;
 }
-.fd{
-   margin: 50px;
-}
 .mar{
+   
    border: 2px solid black;
    padding: 50px 50px 0px 50px;
 }
 .blue{
    background-color: blue;
    height: 400px;
+   margin: 50px;
 }
 .yellow{
    background-color: yellow;
