@@ -1,5 +1,5 @@
 div{
-   box-sizing: content-box;
+   box-sizing: border-box;
 }
 .mar{
    border: 2px solid black;
