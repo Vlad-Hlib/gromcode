@@ -11,12 +11,17 @@ header {
 nav {
    height: 40px;
 }
+.nav-list {
+   margin: 0px;
+}
 li {
-   float: left;
-   position: relative;
+   display: inline-block;
    color: white;
-   margin-left: 16px;
    list-style-type: none;
+   height: 40px;
+   display: table-cell;
+   vertical-align: middle;
+   padding-left: 16px;
 }
 main {
    height: 5000px;
