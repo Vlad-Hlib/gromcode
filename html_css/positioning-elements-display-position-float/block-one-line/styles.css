@@ -1,0 +1,19 @@
+div{
+   height: 200px;
+   width: 100%;
+}
+.block_black{
+   background-color: black;
+}
+.block_blue{
+   background-color: blue;
+}
+.block_green{
+   background-color: green;
+}
+.block_red{
+   background-color: red;
+}
+.block_yellow{
+   background-color: yellow;
+}
