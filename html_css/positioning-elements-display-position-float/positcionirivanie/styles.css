@@ -14,14 +14,16 @@ nav {
 .nav-list {
    margin: 0px;
 }
+
 li {
-   display: inline-block;
+   position: relative;
    color: white;
    list-style-type: none;
    height: 40px;
-   display: table-cell;
-   vertical-align: middle;
-   padding-left: 16px;
+   float: left;
+   display: flex;
+   align-items: center;
+   margin-left: 16px;
 }
 main {
    height: 5000px;
