@@ -1,6 +1,10 @@
+*{
+   box-sizing: border-box;
+}
 div{
    height: 200px;
-   width: 100%;
+   width: 20%;
+   float: left;
 }
 .block_black{
    background-color: black;
