@@ -1,11 +1,11 @@
-*{
+* {
    box-sizing: border-box;
 }
 .block {
    display: flex;
    height: 100px;
-   min-width: 100px;
-   flex-grow: 3;
+   min-width: 84px;
+   flex-grow: 1;
 }
 .container {
    display: flex;
