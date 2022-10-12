@@ -2,14 +2,15 @@
    box-sizing: border-box;
 }
 .block {
+   display: flex;
    height: 100px;
    min-width: 100px;
-   flex-grow: 1;
-   
+   flex-grow: 3;
 }
 .container {
    display: flex;
    width: 100%;
    flex-wrap: wrap;
-   
+   min-width: 100px;
+   justify-content: space-around;
 }
