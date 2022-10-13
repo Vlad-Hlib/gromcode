@@ -32,16 +32,15 @@
    background-color: pink;
    width: 100%;
    display: flex;
+   align-items: center;
+   justify-content: center;
 }
-.fool_text {
-   margin: auto;
-}
+
 .news {
-   width: 200px;
+   min-width: 200px;
    background-color: grey;
-   
 }
-.text_news{
+.text_news {
    display: flex;
    justify-content: center;
    margin: 16px;
