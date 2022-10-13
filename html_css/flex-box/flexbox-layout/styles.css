@@ -37,7 +37,7 @@
 }
 
 .news {
-      width: 200px;
+   width: 200px;
    background-color: grey;
 }
 .text_news {
@@ -45,11 +45,18 @@
    justify-content: center;
    margin: 16px;
 }
-
+.items_news {
+   align-items: center;
+   margin-bottom: 40px;
+}
 .news__item {
    list-style-type: none;
    margin-left: 16px;
    height: 40px;
+   display: flex;
+}
+.fin {
+   align-items: center;
 }
 
 .footer {
