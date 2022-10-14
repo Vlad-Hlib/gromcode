@@ -17,4 +17,7 @@
    flex-basis: 300px;
    flex-grow: 1;
 }
-
+h1{
+   display: flex;
+justify-content: space-around;
+}
