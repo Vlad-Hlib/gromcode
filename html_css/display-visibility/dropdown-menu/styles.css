@@ -2,39 +2,39 @@
    box-sizing: border-box;
 }
 .dropdown {
-   padding: 16px;
    margin: 16px;
+   margin-top: 32px;
    display: inline-block;
+   font-size: 16px;
 }
 .menu-button {
    padding: 16px;
    background-color: darkgreen;
-   opacity: 0.8;
-   font-size: 16px;
    color: white;
+   opacity: 0.8;
 }
 .menu-button:hover {
    opacity: 1;
    cursor: pointer;
 }
-.menu-list {
-   display: none;
-}
-.dropdown:hover .menu-list {
-   display: block;
-   position: relative;
-   margin-top: 16;
+.menu-list{
    padding: 0;
-   background-color: lightcyan;
-   color: black;
-   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-   min-width: 120px;
-   z-index: 1;
-}
-.menu-item {
+   margin: 0;
+   margin-top: 16px;
    list-style-type: none;
+   display: none;
+   background-color: lightcyan;
+   min-width: 120px;
+   color: black;
+   z-index: 1;
+   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown:hover .menu-list{
+   display: block;
+}
+.menu-item{
    padding: 16px;
 }
-.menu-item:hover {
+.menu-item:hover{
    background-color: ghostwhite;
 }
