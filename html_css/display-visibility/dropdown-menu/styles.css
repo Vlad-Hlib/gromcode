@@ -1,43 +1,36 @@
-* {
-   box-sizing: border-box;
-   margin: 0px;
-   padding: 0px;
+.dropdown{
+   margin: 32px;
 }
-.dropdown {
-   margin: 16px;
-}
-.menu-button {
+.menu-button{
    padding: 16px;
    background-color: darkgreen;
-   opacity: 80%;
-}
-.dropdown:hover {
-   opacity: 100%;
+   opacity: 0.8;
    font-size: 16px;
-   color: #fff;
+   color: white;
+}
+.menu-button:hover{
+   opacity: 1;
    cursor: pointer;
 }
-.menu-list {
+.menu-list{
    display: none;
-   margin-top: 40px;
 }
-
-.dropdown:hover .menu-list {
-   margin: 0;
-   padding: 0;
-   background-color: lightcyan;
+.dropdown:hover .menu-list{
    display: block;
+}
+.menu-list{
+   margin: 16px 0px 0px 0px;
+   padding: 0px;
+   background-color: lightcyan;
    color: black;
    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
    width: 120px;
    z-index: 1;
-   margin-top: 15px;
 }
-.menu-item {
+.menu-item{
    padding: 16px;
    list-style-type: none;
-   display: block;
 }
-.menu-item:hover {
+.menu-item:hover{
    background-color: ghostwhite;
 }
