@@ -2,10 +2,9 @@
    box-sizing: border-box;
 }
 .dropdown {
+   padding: 16px;
    margin: 16px;
-   margin-top: 32px;
    display: inline-block;
-   
 }
 .menu-button {
    padding: 16px;
