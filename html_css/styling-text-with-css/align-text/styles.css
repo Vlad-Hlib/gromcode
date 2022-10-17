@@ -1,9 +1,7 @@
 * {
    box-sizing: border-box;
 }
-head{
-   margin: 0px;
-}
+
 body {
    font-family: "Roboto", sans-serif;
    font-size: 18px;
