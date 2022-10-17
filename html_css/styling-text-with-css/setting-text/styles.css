@@ -5,17 +5,16 @@ body {
    font-family: Verdana, sans-serif;
 }
 h1 {
+   width: 50vw;
    font-size: 74px;
    text-align: center;
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
 }
-header {
-   width: 50vw;
-}
-div {
-   display: flex;
+
+div { 
+   text-align: center;
    height: 200px;
    background-color: coral;
    color: white;
