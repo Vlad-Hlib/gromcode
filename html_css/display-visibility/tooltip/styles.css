@@ -8,7 +8,10 @@ div {
    border-bottom: 1px dotted black;
    position: fixed;
 }
-.tooltip {
+.tooltip{
+   display: none;
+}
+div:hover .tooltip {
    display: flex;
    position: absolute;
    bottom: -40px;
