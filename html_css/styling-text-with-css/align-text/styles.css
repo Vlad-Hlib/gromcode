@@ -1,9 +1,9 @@
 * {
    box-sizing: border-box;
+   margin: 0px;
 }
 body {
    font-family: "Roboto", sans-serif;
-
    font-size: 18px;
    margin: 32px;
 }
@@ -11,11 +11,9 @@ h1 {
    word-spacing: 20px;
    text-align: center;
    text-transform: uppercase;
-   margin: 32px;
 }
 p {
    line-height: 28px;
-   margin: 32px;
 }
 .tech {
    font-weight: 900;
