@@ -1,29 +1,33 @@
 * {
-   margin: 32px;
+   box-sizing: border-box;
 }
 body {
-   font-family: Roboto, sans-serif;
+   font-family: "Roboto", sans-serif;
+
    font-size: 18px;
+   margin: 32px;
 }
 h1 {
    word-spacing: 20px;
    text-align: center;
    text-transform: uppercase;
+   margin: 32px;
 }
-p{
+p {
    line-height: 28px;
+   margin: 32px;
 }
-.tech{
+.tech {
    font-weight: 900;
    letter-spacing: 3px;
    font-size: 24px;
    opacity: 0.8;
    text-decoration-line: underline;
 }
-a{
+a {
    text-decoration: none;
 }
-em{
+em {
    font-style: italic;
-   color: gray;
+   color: grey;
 }
