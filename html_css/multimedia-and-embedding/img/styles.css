@@ -9,7 +9,6 @@
 }
 .gallery {
    display: flex;
-   flex-wrap: wrap;
 }
 figcaption {
    line-height: 30px;
