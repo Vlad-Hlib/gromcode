@@ -1,34 +1,31 @@
-*{
+* {
    box-sizing: border-box;
 }
-div.image-container{
-   margin: 50px 0px;
-   display: flex;
-   justify-content: space-around;
-} 
-.img-main{
+.img-main {
+   margin: 50px auto;
+   display: block;
    max-width: 100%;
    border-radius: 20px;
 }
-.gallery{
+.gallery {
    display: flex;
    flex-wrap: wrap;
 }
-figcaption{
+figcaption {
    line-height: 30px;
    text-align: center;
    text-transform: lowercase;
 }
-figure{
+figure {
    margin: 16px;
    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
-.opacity{
+.opacity {
    filter: opacity(50%);
 }
-.blur{
+.blur {
    filter: blur(4px);
 }
-.invert{
+.invert {
    filter: invert(100%);
 }
