@@ -18,23 +18,28 @@
          <input type="text" name="lastName" id="la1s" readonly value="Emerson">
       </div>
       <div>
-         <label for="ag1e"></label>
+         <label for="ag1e">age</label>
          <input type="number" name="age" id="ag1e" value="17" min="3" max="10">
       </div>
       <div>
-         <input type="checkbox" name="agree" id="f1" disabled>
          <label for="f1">
+            <input type="checkbox" name="agree" id="f1" disabled>
             Accept terms and conditions
          </label>
-
       </div>
       <div class="choose-gender">
-         <input type="radio" name="gander" id="radio-gender-male">
-         <label for="radio-gender-male">Male</label>
-         <input type="radio" name="gander" id="radio-gender-female">
-         <label for="radio-gender-female">Female</label>
-         <input type="radio" name="gander" id="radio-gender-secret">
-         <label for="radio-gender-secret">Secret</label>
+         <label>
+            <input type="radio" name="gander" id="radio-gender-male">
+            <label for="radio-gender-male">Male</label>
+         </label>
+         <label>
+            <input type="radio" name="gander" id="radio-gender-female">
+            <label for="radio-gender-female">Female</label>
+         </label>
+         <label>
+            <input type="radio" name="gander" id="radio-gender-secret" checked>
+            <label for="radio-gender-secret">Secret</label>
+         </label>
       </div>
       <div>
          <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
