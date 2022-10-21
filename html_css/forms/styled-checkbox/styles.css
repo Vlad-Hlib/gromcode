@@ -2,10 +2,10 @@
    box-sizing: border-box;
 }
 .checkbox {
-   padding-left: 40px;
+   padding-left: 35px;
    font-size: 24px;
    margin: 16px;
-   position: relative;
+   position: absolute;
    display: inline-block;
 }
 input[type="checkbox"] {
@@ -17,7 +17,7 @@ input[type="checkbox"] {
    height: 25px;
    width: 25px;
    background-color: #d3d3d3;
-   left: 5px;
+   left: 0;
    top: 0;
 }
 input[type="checkbox"]:checked + .checkmark {
