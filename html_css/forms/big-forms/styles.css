@@ -1,9 +1,10 @@
-*{
+* {
    box-sizing: border-box;
 }
-form{
+form {
    padding: 32px;
 }
-div{
+
+div {
    margin: 8px;
 }
