@@ -7,9 +7,12 @@
    margin: 16px;
    position: relative;
    display: inline-block;
+   cursor: pointer;
 }
 input[type="checkbox"] {
    visibility: hidden;
+   height: 0px;
+   width: 0px;
 }
 .checkmark {
    display: inline-block;
