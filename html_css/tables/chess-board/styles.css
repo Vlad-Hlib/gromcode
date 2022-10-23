@@ -9,11 +9,11 @@ td{
    height: 50px;
    width: 50px;
 }
-tr:nth-child(even) td:nth-child(even){
+tr:nth-child(odd) td:nth-child(odd){
    background-color: black;
     border: 1px solid black;
 }
-tr:nth-child(odd) td:nth-child(odd){
+tr:nth-child(even) td:nth-child(even){
    background-color: black;
    border: 1px solid black;
 } 
