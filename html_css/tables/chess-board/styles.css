@@ -1,0 +1,19 @@
+*{
+   box-sizing: border-box;
+}
+table{
+   margin: 16px;
+   border: 1px solid black;
+}
+td{
+   height: 50px;
+   width: 50px;
+}
+tr:nth-child(even) td:nth-child(even){
+   background-color: black;
+    border: 1px solid black;
+}
+tr:nth-child(odd) td:nth-child(odd){
+   background-color: black;
+   border: 1px solid black;
+} 
