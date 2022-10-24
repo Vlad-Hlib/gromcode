@@ -10,6 +10,11 @@ td{
    width: 50px;
    text-align: center;
 }
+table,
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 tr:nth-child(even) td:nth-child(odd){
    background-color: black;
     border: 1px solid black;
