@@ -1,15 +1,15 @@
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 p {
-  margin: 0 32px;
-  padding: 8px;
-  background-color: antiquewhite;
-  display: inline-block;
-  border-radius: 4px;
+   margin: 0 32px;
+   padding: 8px;
+   background-color: antiquewhite;
+   display: inline-block;
+   border-radius: 4px;
 }
-.square{
+.square {
    height: 100px;
    width: 100px;
    background-color: tomato;
