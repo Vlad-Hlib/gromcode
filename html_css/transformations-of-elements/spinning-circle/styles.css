@@ -23,7 +23,7 @@
    border: 4px solid;
    border-color: black lightgrey lightgrey lightgrey;
    border-radius: 50%;
-   animation: rotate 2s linear infinite;
+   animation: rotate 2s linear;
 }
 
 
