@@ -1,0 +1,10 @@
+*{
+   box-sizing: border-box;
+}
+.pic{
+   display: flex;
+}
+.img{
+   margin: auto;
+   max-width: 100%;
+}
