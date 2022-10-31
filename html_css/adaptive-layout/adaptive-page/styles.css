@@ -138,4 +138,10 @@ h1 {
    .nav-list{
       width: 100%;
    }
+   .units-list{
+      margin: 0px;
+   }
+   .news p{
+      margin: 0px;
+   }
 }
