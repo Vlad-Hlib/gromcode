@@ -20,7 +20,7 @@
   font-weight: 700;
   cursor: pointer;
 }
-.nav-list__item:active {
+.nav-list__item_selected {
   background-color: #fb0;
 }
 .nav-list__item:hover {

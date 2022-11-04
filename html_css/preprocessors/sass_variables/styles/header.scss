@@ -22,7 +22,7 @@
       font-weight: 700;
       cursor: pointer;
    }
-   &__item:active{
+   &__item_selected{
       background-color: $color-primary;
    }
    &__item:hover{
