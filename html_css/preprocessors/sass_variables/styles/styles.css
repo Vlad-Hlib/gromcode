@@ -1,0 +1,35 @@
+.header {
+  height: 56px;
+  background-color: #eee;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.nav-list__item {
+  background-color: #ff7f50;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px;
+  margin-left: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-list__item:active {
+  background-color: #fb0;
+}
+.nav-list__item:hover {
+  opacity: 0.7;
+}
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
