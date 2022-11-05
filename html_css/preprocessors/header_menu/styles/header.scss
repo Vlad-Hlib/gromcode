@@ -4,7 +4,6 @@
 }
 nav{
    display: flex;
-   height: 3em;
    color: #fff;
 }
 .submenu{
@@ -26,13 +25,17 @@ nav{
 
 .menu{
    margin: 0px;
-   margin: auto;
    padding: 0px;
    margin-left: 3em;
-   list-style-type: none;
    display: flex;
+   list-style-type: none;
+   
       &__item{
          padding: 0px 8px;
+         height: 3em;
+         &-text{
+            line-height: 3em;
+         }
       }
       &__item:hover{
          background-color: #9acd32;
