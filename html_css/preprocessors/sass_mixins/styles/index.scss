@@ -9,6 +9,9 @@ body{
 }
 .container{
    margin: auto;
+   @include extra-small-l{
+   display: flex;
+   }
    @include small-l{
       display: flex;
    }

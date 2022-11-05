@@ -10,6 +10,11 @@ body {
 .container {
   margin: auto;
 }
+@media screen and (max-width: 599px) and (orientation: landscape) {
+  .container {
+    display: flex;
+  }
+}
 @media screen and (min-width: 600px) and (orientation: landscape) {
   .container {
     display: flex;
