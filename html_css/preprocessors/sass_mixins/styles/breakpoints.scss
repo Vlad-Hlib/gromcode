@@ -1,0 +1,34 @@
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+
+@mixin small-p {
+   @media screen and (min-width: $sm) and (orientation: portrait) {
+      @content;
+   }
+}
+@mixin small-l {
+   @media screen and (min-width: $sm) and (orientation: landscape) {
+      @content;
+   }
+}
+@mixin medium-p {
+   @media screen and (min-width: $md) and (orientation: portrait) {
+      @content;
+   }
+}
+@mixin medium-l {
+   @media screen and (min-width: $md) and (orientation: landscape) {
+      @content;
+   }
+}
+@mixin large-p{
+   @media screen and (min-width: $lg) and (orientation: portrait) {
+      @content;
+   }
+}
+@mixin large-l {
+   @media  screen and (min-width: $lg) and (orientation: landscape) {
+      @content;
+   }
+}

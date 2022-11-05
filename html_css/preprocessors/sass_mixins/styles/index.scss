@@ -1,0 +1,47 @@
+@import 'breakpoints.scss';
+*{
+   box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   display: flex;
+   
+}
+.container{
+   margin: auto;
+   @include small-l{
+      display: flex;
+   }
+   @include medium-l{
+      display: flex;
+   }
+   @include large-l{
+      display: flex;
+   }
+}
+.square{
+   background-color: #ff7f50;
+   height: 100px;
+   width: 100px;
+   margin: 8px;
+
+   @include small-p{
+   background-color: #8a2be2;
+}
+   @include small-l{
+      background-color: #8a2be2;
+   }
+   @include medium-p{
+   background-color: #a61;
+}
+   @include medium-l{
+      background-color: #a61;
+   }
+
+   @include large-p{
+   background-color: #c47;
+}
+   @include large-l{
+      background-color: #c47;
+   }
+}
